@@ -1,0 +1,11 @@
+.center{
+    text-align: center;
+
+}
+
+.imageCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
