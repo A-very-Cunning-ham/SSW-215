@@ -10,101 +10,99 @@
 <body>
     <h1 class="center">The Cunning Ham - 14th floor Howe</h1>
     <img src="headshot.jpg" alt="picture of restaurant owner" class="imageCenter">
-    <p class="center">Hi, I'm Avery. As the owner of The Cunning Ham I aim to bring exciting and delicious vegan cuisine
-        to the Stevens Campus. Come give us a visit on the 14th floor of the Howe Center for some good eats :)</p>
+    <p class="center">Hi, I'm Avery. As the owner of The Cunning Ham I aim to bring exciting and delicious vegan cuisine to the Stevens Campus. Come give us a visit on the 14th floor of the Howe Center for some good eats :)</p>
+    <div class="center">
+        <h3 id="breakfastHeading">Breakfast Menu</h3>
+        <table id="breakfastTable">
+            <tr>
+                <th>Item Number</th>
+                <th>Food</th>
+                <th>Price ($)</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Tofu Scramble</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Chilaquiles</td>
+                <td>6</td>
+            </tr>
+        </table>
+        <button id="breakfastTableButton" onclick="USDtoGBP('breakfastTable')">Dollar to Pound</button>
 
-    <h3>Breakfast Menu</h3>
-    <table id="breakfastTable">
-        <tr>
-            <th>Item Number</th>
-            <th>Food</th>
-            <th>Price ($)</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Tofu Scramble</td>
-            <td>5</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Chilaquiles</td>
-            <td>6</td>
-        </tr>
-    </table>
-    <button onclick="USDtoGBP('breakfastTable')">Dollar to Pound</button>
+        <h3 id="lunchHeading">Lunch Menu</h3>
+        <table id="lunchTable">
+            <tr>
+                <th>Item Number</th>
+                <th>Food</th>
+                <th>Price ($)</th>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Chickpea Smash</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bean and Rice Burrito with Guac</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Chips and Salsa</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <button id="lunchTableButton" onclick="USDtoGBP('lunchTable')">Dollar to Pound</button>
 
-    <h3>Lunch Menu</h3>
-    <table id="lunchTable">
-        <tr>
-            <th>Item Number</th>
-            <th>Food</th>
-            <th>Price ($)</th>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Chickpea Smash</td>
-            <td>4</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Bean and Rice Burrito with Guac</td>
-            <td>9</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>Chips and Salsa</td>
-            <td>3</td>
-        </tr>
-    </table>
-    <button onclick="USDtoGBP('lunchTable')">Dollar to Pound</button>
+        <h3 id="dinnerHeading">Dinner Menu</h3>
+        <table id="dinnerTable">
+            <tr>
+                <th>Item Number</th>
+                <th>Food</th>
+                <th>Price ($)</th>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Veggie Burger with Fries</td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Coconut Cauliflower Curry</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Fried Tofu Sandwich</td>
+                <td>6</td>
+            </tr>
+        </table>
+        <button id="dinnerTableButton" onclick="USDtoGBP('dinnerTable')">Dollar to Pound</button>
 
-    <h3>Dinner Menu</h3>
-    <table id="dinnerTable">
-        <tr>
-            <th>Item Number</th>
-            <th>Food</th>
-            <th>Price ($)</th>
-        </tr>
-        <tr>
-            <td>6</td>
-            <td>Veggie Burger with Fries</td>
-            <td>9</td>
-        </tr>
-        <tr>
-            <td>7</td>
-            <td>Coconut Cauliflower Curry</td>
-            <td>7</td>
-        </tr>
-        <tr>
-            <td>8</td>
-            <td>Fried Tofu Sandwich</td>
-            <td>6</td>
-        </tr>
-    </table>
-    <button onclick="USDtoGBP('dinnerTable')">Dollar to Pound</button>
-
+        <br>
+        <button onclick="placeOrder()">Place Order</button>
+        <p id="orderArea"></p>
+    </div>
 
 
     <script>
         function USDtoGBP(id) {
+            document.getElementById(id + "Button").remove()
             var x = document.getElementById(id);
             x.rows[0].cells[2].innerHTML = "Price (£)"
             for (i = 1; i < x.rows.length; i++) {
                 cell = x.rows[i].cells[2]
                 cell.innerHTML = cell.innerHTML * 0.71;
             }
-
         }
-    </script>
 
-    <br>
-    <button onclick="placeOrder()">Place Order</button>
-    <p id="orderArea"></p>
-
-    <script>
         function placeOrder() {
-            document.getElementById("orderArea").innerHTML = "We’ve received your order. Your order will be ready for pick up in 5 minutes";
-            alert("We’ve received your order. Your order will be ready for pick up in 5 minutes")
+            message = "We’ve received your order. Your order will be ready for pickup in 5 minutes"
+            document.getElementById("orderArea").innerHTML = message;
+            alert(message)
         }
     </script>
 
