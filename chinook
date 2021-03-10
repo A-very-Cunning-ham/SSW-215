@@ -1,0 +1,8 @@
+INSERT INTO students(
+studID, FirstName, LastName , Major, Year)
+VALUES
+(1, "FirstName1", "LastName1", "Softe", 2020),
+(2, "FirstName2", "LastName2", "Meche", 2020),
+(3, "FirstName3", "LastName3", "BME", 2022),
+(4, "FirstName4", "LastName4", "Meche", 2024),
+(5, "FirstName5", "LastName5", "Softe", 2023)
