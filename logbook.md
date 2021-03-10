@@ -14,21 +14,21 @@ Week 1:
     - I spent approximately 20 minutes doing the assignment and some additional time setting up a Git repo for this class
     - This assignment used HTML
     - I wrote a total of 79 lines of code
-- Outside of this class I did coding for CS-115, SSW-567, and Software Engineering Club
+- Outside of this class I coded for CS-115, SSW-567, and Software Engineering Club
 
 Week 2:
 - I found homework #2 to be a good introduction to CSS and how it can be used with HTML. This was a good way to learn about external stylesheets as well as HTML classes and IDs
     - I spent approximately 30 minutes doing this assignment
     - This assignment mainly involved CSS but there was some modification of the HTML done as well
     - I wrote 37 lines of CSS and modified a few lines of HTML
-- Outside of this class I did coding for CS-115 and SSW-567
+- Outside of this class I coded for CS-115 and SSW-567
 
 Week 3:
 - I found homework #3 to be a good introduction to CSS and how it can be used with HTML. This was a good way to learn about external stylesheets as well as HTML classes and IDs
     - I spent approximately 30 minutes doing this assignment
     - This assignment mainly involved CSS but there was some modification of the HTML done as well
     - I wrote 37 lines of CSS and modified a few lines of HTML
-- Outside of this class I did coding for CS-115 and SSW-567
+- Outside of this class I coded for CS-115 and SSW-567
 
 Week 4:
 - I found homework #4 to be a good first introduction to basic javaScript. It helped me to understand how JS can interact with the HTML DOM. However I think the assignment could have gone deeper into the JS functions we learned about in class
