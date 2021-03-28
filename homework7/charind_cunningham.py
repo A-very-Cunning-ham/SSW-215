@@ -6,7 +6,7 @@ def char_index(string, char):
         if element == char:
             matches.append(index)
 
-    print(f"The index values of each occurrences of character {char} in the string are {matches}")
+    print(f"The index values of each occurrence of character {char} in the string are {matches}")
     return matches
 
 with open("homework7/fruits.txt", "r") as temp:
