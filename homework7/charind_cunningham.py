@@ -9,6 +9,7 @@ def char_index(string, char):
     print(f"The index values of each occurrences of character {char} in the string are {matches}")
     return matches
 
+with open("homework7/fruits.txt", "r") as temp:
+    fruits = temp.read().strip('"')
 
-fruits = "Mango banana apple pear Banana grapes strawberry Apple pear mango banana Kiwi apple mango strawberry"
-char_index(fruits, "r")
+char_index(fruits, 'r')
