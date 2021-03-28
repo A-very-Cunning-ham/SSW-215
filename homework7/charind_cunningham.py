@@ -1,6 +1,6 @@
 def char_index(string, char):
     """returns a list of index values of each
-    occurrence of the character `char` the string `str`"""
+    occurrence of the character `char` the string `string`"""
     matches = []
     for index, element in enumerate(string):
         if element == char:
