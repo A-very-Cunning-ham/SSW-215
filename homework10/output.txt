@@ -1,0 +1,61 @@
+PS C:\Users\Avery\Documents\GitHub\SSW-215> & C:/Users/Avery/AppData/Local/Programs/Python/Python39/python.exe c:/Users/Avery/Documents/GitHub/SSW-215/homework10/bank.py
+Initial values:
+
+Here are the current account balances in Scrooge's bank:
+Huey Duck's account #700007 has a balance of $150, 0 penalties, 0 deposits, and 0 withdrawls
+Dewey Duck's account #800008 has a balance of $350, 0 penalties, 0 deposits, and 0 withdrawls
+Louie Duck's account #900009 has a balance of $25, 0 penalties, 0 deposits, and 0 withdrawls
+Scrooge McDuck's account #100001 has a balance of $1000000, 0 penalties, 0 deposits, and 0 withdrawls
+
+Louie Duck is withdrawing $2
+Here are the current account balances in Scrooge's bank:
+Huey Duck's account #700007 has a balance of $152, 0 penalties, 1 deposits, and 0 withdrawls
+Dewey Duck's account #800008 has a balance of $352, 0 penalties, 1 deposits, and 0 withdrawls
+Louie Duck's account #900009 has a balance of $23, 0 penalties, 0 deposits, and 1 withdrawls
+Scrooge McDuck's account #100001 has a balance of $999996, 0 penalties, 0 deposits, and 2 withdrawls
+
+Dewey Duck is withdrawing $20
+Here are the current account balances in Scrooge's bank:
+Huey Duck's account #700007 has a balance of $172, 0 penalties, 2 deposits, and 0 withdrawls
+Dewey Duck's account #800008 has a balance of $332, 0 penalties, 1 deposits, and 1 withdrawls
+Louie Duck's account #900009 has a balance of $43, 0 penalties, 1 deposits, and 1 withdrawls
+Scrooge McDuck's account #100001 has a balance of $999956, 0 penalties, 0 deposits, and 4 withdrawls
+
+Huey Duck is withdrawing $20
+transaction unsuccessful, insufficient account balance
+Here are the current account balances in Scrooge's bank:
+Huey Duck's account #700007 has a balance of $167, 1 penalties, 2 deposits, and 1 withdrawls
+Dewey Duck's account #800008 has a balance of $332, 0 penalties, 1 deposits, and 1 withdrawls
+Louie Duck's account #900009 has a balance of $43, 0 penalties, 1 deposits, and 1 withdrawls
+Scrooge McDuck's account #100001 has a balance of $999956, 0 penalties, 0 deposits, and 4 withdrawls
+
+Louie Duck is withdrawing $10
+transaction unsuccessful, insufficient account balance
+Here are the current account balances in Scrooge's bank:
+Huey Duck's account #700007 has a balance of $167, 1 penalties, 2 deposits, and 1 withdrawls
+Dewey Duck's account #800008 has a balance of $332, 0 penalties, 1 deposits, and 1 withdrawls
+Louie Duck's account #900009 has a balance of $38, 1 penalties, 1 deposits, and 2 withdrawls
+Scrooge McDuck's account #100001 has a balance of $999956, 0 penalties, 0 deposits, and 4 withdrawls
+
+Dewey Duck is withdrawing $20
+Here are the current account balances in Scrooge's bank:
+Huey Duck's account #700007 has a balance of $187, 1 penalties, 3 deposits, and 1 withdrawls
+Dewey Duck's account #800008 has a balance of $312, 0 penalties, 1 deposits, and 2 withdrawls
+Louie Duck's account #900009 has a balance of $58, 1 penalties, 2 deposits, and 2 withdrawls
+Scrooge McDuck's account #100001 has a balance of $999916, 0 penalties, 0 deposits, and 6 withdrawls
+
+Huey Duck is withdrawing $30
+transaction unsuccessful, insufficient account balance
+Here are the current account balances in Scrooge's bank:
+Huey Duck's account #700007 has a balance of $182, 2 penalties, 3 deposits, and 2 withdrawls
+Dewey Duck's account #800008 has a balance of $312, 0 penalties, 1 deposits, and 2 withdrawls
+Louie Duck's account #900009 has a balance of $58, 1 penalties, 2 deposits, and 2 withdrawls
+Scrooge McDuck's account #100001 has a balance of $999916, 0 penalties, 0 deposits, and 6 withdrawls
+
+Louie Duck is withdrawing $40
+transaction unsuccessful, insufficient account balance
+Here are the current account balances in Scrooge's bank:
+Huey Duck's account #700007 has a balance of $182, 2 penalties, 3 deposits, and 2 withdrawls
+Dewey Duck's account #800008 has a balance of $312, 0 penalties, 1 deposits, and 2 withdrawls
+Louie Duck's account #900009 has a balance of $53, 2 penalties, 2 deposits, and 3 withdrawls
+Scrooge McDuck's account #100001 has a balance of $999916, 0 penalties, 0 deposits, and 6 withdrawls
